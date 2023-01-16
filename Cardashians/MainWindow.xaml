@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="Subject1" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Height="450" Width="160" FontSize="40"/>
+        <Button x:Name="Subject2" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Height="450" Width="160" Margin="160,0,0,0" FontSize="40"/>
+        <Button x:Name="Subject3" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Height="450" Width="160" FontSize="40" />
+        <Button x:Name="Subject4" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Height="450" Width="160" Margin="480,0,0,0" FontSize="40"/>
+        <Button x:Name="Subject5" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Height="450" Width="160" Margin="640,0,0,0" FontSize="40"/>
+        <Button x:Name="Menue" Margin="0,363,720,-2" Background="Transparent" BorderBrush="Transparent">
+            <Image Source= "Assets\menu-icon.png"/>
+        </Button>
+        <Button x:Name="nextPage" Margin="720,180,0,180" Background="Transparent" BorderBrush="Transparent">
+            <Image Source= "Assets\nextPage.png"/>
+        </Button>
     </Grid>
 </Window>
