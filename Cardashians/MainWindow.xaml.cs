@@ -25,7 +25,7 @@ namespace Cardashians
         public MainWindow()
         {
             InitializeComponent();
-            SetButtonContent(Subject1, "Rechnungswesen", Brushes.Aquamarine);
+            SetButtonContent(Subject1, "Mathe", Brushes.Aquamarine);
         }
 
         private void SetButtonContent(Button button, string name, Brush color)
@@ -54,6 +54,7 @@ namespace Cardashians
 
         }
 
+        
     }
 
 }
