@@ -28,6 +28,8 @@ namespace Cardashians
             SetButtonContent(Subject1, "Mathe", Brushes.Aquamarine);
         }
 
+
+
         private void SetButtonContent(Button button, string name, Brush color)
         {
             
