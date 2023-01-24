@@ -35,6 +35,7 @@ namespace Cardashians
             
             button.Content = buttonText.Replace("\n", Environment.NewLine);
             button.Background = color;
+            
 
             /*TextBlock textBlock = new TextBlock();
             textBlock.Text = buttonText.Replace("\n", Environment.NewLine);
