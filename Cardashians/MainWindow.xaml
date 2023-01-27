@@ -1,12 +1,44 @@
-﻿<Window x:Class="Cardashians.MainWindow"
+﻿<Window x:Name="MainUI" x:Class="Cardashians.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cardashians"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
 
+    <Window.Resources>
+        <Style x:Key="BntStyle" TargetType="Button">            
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Height" Value="450"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="FontSize" Value="40"/>
+            
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" >
+                        <Setter.Value>
+                            <SolidColorBrush Color="White" Opacity="0.1"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <Button x:Name="Subject1" Content="" Style="{StaticResource BntStyle}"/>
+        <Button x:Name="Subject2" Content="" Margin="160,0,0,0" Style="{StaticResource BntStyle}"/>
+        <Button x:Name="Subject3" Content="" Margin="320,0,0,0" Style="{StaticResource BntStyle}"/>
+        <Button x:Name="Subject4" Content="" Margin="480,0,0,0" Style="{StaticResource BntStyle}"/>
+        <Button x:Name="Subject5" Content="" Margin="640,0,0,0" Style="{StaticResource BntStyle}"/>
+        <Button x:Name="Menue" Margin="0,363,720,-2" Background="Transparent" BorderBrush="Transparent">
+            <Image Source= "Assets\menue.png"/>
+        </Button>
+        <Button x:Name="nextPage" Margin="720,180,0,180" Background="Transparent" BorderBrush="Transparent">
+            <Image Source= "Assets\leftPage.png"/>
+        </Button>
     </Grid>
 </Window>
