@@ -18,7 +18,7 @@
         <Button x:Name="switch_btn" Margin="364,298,364,63" RenderTransformOrigin="0.521,0.514" Background="Transparent" BorderBrush="Transparent" >
             <Image Source="Assets\switch.png"/>
         </Button>
-        <TextBox x:Name="question_answer" HorizontalAlignment="Left" Height="152" Margin="183,0,0,0" TextWrapping="Wrap" Text="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" VerticalAlignment="Center" Width="425" TextChanged="question_answer_TextChanged" FontSize="22"/>
+        <TextBox x:Name="question_answer" HorizontalAlignment="Left" Height="152" Margin="183,0,0,0" TextWrapping="Wrap" Text="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" VerticalAlignment="Center" Width="425"  FontSize="22"/>
         <Button x:Name="back_btn" Margin="10,384,743,-10" RenderTransformOrigin="0.521,0.514" Background="Transparent" BorderBrush="Transparent" >
             <Image Source="Assets\left.png"/>
         </Button>
